@@ -1,5 +1,5 @@
 ---
-author: user
+author: tonym128
 comments: false
 date: 2019-02-17 20:00:40+00:00
 layout: post
@@ -10,7 +10,7 @@ wordpress_id: 256
 ---
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/DefCon26-1024x926.jpg)DefCon 26
+![](/images/2019/02/DefCon26.jpg)DefCon 26
 
 
 
@@ -81,7 +81,7 @@ There are two other events which take place at the same time. [BSides Vegas](htt
 
 
 
-![](http://ttech.mamacos.media/wp-content/uploads/2019/08/img_5d5ffbd5491b0.png)#BadgeLife
+![](/images/2019/08/img_5d5ffbd5491b0.png)#BadgeLife
 
 
 
@@ -89,7 +89,7 @@ There are two other events which take place at the same time. [BSides Vegas](htt
 
 
 
-![](http://ttech.mamacos.media/wp-content/uploads/2019/08/img_5d5ffbd656569.png)Monero
+![](/images/2019/08/img_5d5ffbd656569.png)Monero
 
 
 
@@ -111,8 +111,8 @@ And on the side I was keen to get a bit of the  experience of Las Vegas, being i
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/badges-1024x576.jpg)Badges always makes me think of the scene from [Bad Boys](https://www.youtube.com/watch?v=qcfnfKTP4Nk)
-
+![](/images/2019/02/badges.jpg)Badges always makes me think of the scene from [Bad Boys]()
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qcfnfKTP4Nk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -230,7 +230,7 @@ At the conference you had a chance to get hold of a Coin from the Monero desk. T
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/image.png)The 4 coins representing the challenge to win a badge  
+![](/images/2019/02/image.png)The 4 coins representing the challenge to win a badge  
 
 
 
@@ -307,11 +307,11 @@ Once checked in at the MGM Grand, I had a few hours to kill and figured I would 
 
 
 
-![Image result for mgm grand vegas](http://ttech.mamacos.media/wp-content/uploads/2019/08/mgm-grand-las-vegasb.jpg)Just ridiculous in size
+![Image result for mgm grand vegas](/images/2019/08/mgm-grand-las-vegasb.jpg)Just ridiculous in size
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/image-1.png)This guy stared at me from everywhere!
+![](/images/2019/02/image-1.png)This guy stared at me from everywhere!
 
 
 
@@ -323,13 +323,13 @@ I took a walk down to the peeps who offered to store the batteries for us in Veg
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/image-2.png)Just a nice 3km walk, if I recall correcly I asked for a glass of water when I got there, but I was a little dazed and confused. I took a Taxi back.
+![](/images/2019/02/image-2.png)Just a nice 3km walk, if I recall correcly I asked for a glass of water when I got there, but I was a little dazed and confused. I took a Taxi back.
 
 
 
 
 
-![Image result for don't go outside](http://ttech.mamacos.media/wp-content/uploads/2019/08/keep-calm-and-don-t-go-outside.png)
+![Image result for don't go outside](/images/2019/08/keep-calm-and-don-t-go-outside.png)
 
 
 
@@ -339,314 +339,103 @@ I took a walk down to the peeps who offered to store the batteries for us in Veg
 
 The first lesson I learnt in Vegas, don't go outside.
 
-
-
-
-
-
-
 Taxi's are your friends, air conditioning is your friend!  
-
-
-
-
-
-
-
 
 Once we had all the batteries charging 300 batteries with 15 x 4 battery chargers was up next! We had to charge every battery from almost flat and that took 8 hours. With the amount of charging needed before the conference I had to wake up to swap the batteries out...
 
-
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/Charging.jpg)One round of charging!
-
-
-
-
+![](/images/2019/02/Charging.jpg)One round of charging!
 
 After charging a couple batteries, we realized the batteries didn't have the little nubs that connect them to the terminal on the battery holder. Interesting for the most standard battery ever made, the 18650... it wasn't so standard!
 
-
-
-
-
-
-
 Thus ensued the soldering of 2 x bigger nipples onto... every... single... badge!
 
-
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/Nipple-soldering-station-1024x768.jpg)The nipple soldering station, not quite as exciting as it sounded.  
-
-
-
-
-
+![](/images/2019/02/Nipple-soldering-station.jpg)The nipple soldering station, not quite as exciting as it sounded.  
 
 Staring at the smoke detectors for 2 minutes after soldering everytime was quite 'entertaining'.
 
-
-
-
-
-
-
 There was some time for a break and a coffee before the next disaster struck.
 
-
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/20180806_082337-1024x768.jpg)Was interesting taking part in the institution of American Coffee's
-
-
-
-
+![](/images/2019/02/20180806_082337.jpg)Was interesting taking part in the institution of American Coffee's
 
 Whilst being really clever and getting all the badges ready for transport to the conference, we figured we'd load them up with batteries to just be able to hand them out, BAM done. 
 
-
-
-
-
-
-
 So here is ElasticNinja programming at night, with the beautifull red 'I've got a battery in' light, which should have lasted for weeks on these two batteries.
 
-
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/BadgesReady.jpg)Ready to rock, batteries all plugged in, all tested with a copy of the firmware, rock on
-
-
-
-
+![](/images/2019/02/BadgesReady.jpg)Ready to rock, batteries all plugged in, all tested with a copy of the firmware, rock on
 
 The next morning when we woke up, we saw the badges were at 60% power, without having been turned on. The little red led was not working quite as expected, this meant taking all the batteries out, charging them again, as well as removing the led's resistor...
 
-
-
-
-
-
-
 Skip forwards another 20 hours later and we were ready to rock... AGAIN!
-
-
-
-
-
-
 
 ElasticNinja was working on some additional code quite a lot of time and bug fixing a bunch of things (including writing Blockchain the game). 
 
-
-
-
-
-
-
 I had to fill my time up with something and came up with the emoji badge! Since it was pretty easy to get some graphics for it and the code was relatively simple (show a picture), I made the graphics for it and ElasticNinja implemented it, since I wasn't so good with getting a development environment up.
 
-
-
-
-
-
-
-
-
+<video muted controls>
+    <source src="/images/2019/02/VID-20180806-WA0025.mp4" type="video/mp4">
+</video>
 
 The Emoji Badge!
 
-
-
-
-
-
-
-
-
-
 And just to push the old school graphics effects on the awesome pixel array, I found a plasma effect in C, it wasn't totally optimal, but after a bit of hacking it made it's way into the badge as well!
 
-
-
-
+<video muted controls>
+    <source src="/images/2019/02/VID-20180809-WA0012-2.mp4" type="video/mp4">
+</video>
 
 Eye searing plasma!
 
-
-
-
-
 After getting all the badges flashed and getting a late lanyard delivery, it was time to setup them up, first off...
 
-
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/Lanyard-1024x576.jpg)
-
-
-
-
+![](/images/2019/02/Lanyard.jpg)
 
 Remove all the metal pins we cannot use and replace them with orange zip ties, that we chose because we're so colour awesome!
 
-
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/Late-Lanyard-Delivery-1024x768.jpg)Check out the epic orange zip ties!
-
-
-
-
+![](/images/2019/02/Late-Lanyard-Delivery.jpg)Check out the epic orange zip ties!
 
 ## AT DEFCON
 
-
-
-
-
-
-
 DefCon was pretty amazing when it started, we missed a substantial part of the first day as we were gunning away on most of the above still, but we did make our way there and see the sights later.  
 
-
-
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/Breaking-Firewalls-1024x768.jpg)Cool graphics definitely make talks even more interesting, but this was pretty good even without the graphics
-
-
-
-
+![](/images/2019/02/Breaking-Firewalls.jpg)Cool graphics definitely make talks even more interesting, but this was pretty good even without the graphics
 
 I don't have a lot of pictures at the conference as it's a kinda a 'no no', to randomly go around taking pictures of people, but it was super busy and there were more people than I'd like to have counted everywhere you looked.
 
-
-
-
-
-
-
 It was pretty phenomenal to see the amount of rooms and talks going on in addition to the 6 main tracks. There are rooms for body hacks, hard disk duplication, social engineering, pretty much anything do with security or hacking and it was there.
-
-
-
-
-
-
 
 We were VERY succesful in handing out the coin challenge tokens and all 1000 tokens were gone as fast as we handed them out. On day 2 we had to put images online for people to use in the challenge.
 
-
-
-
-
-
-
 I spent a ton of time, co-ordinating with people to either help them solve the challenge or to show them how to use their prize and also fixing badges, we had a couple failures, but wasn't too bad. ElasticNinja was able to work magic with the broken badges! I was good at replacing batteries too :P
 
+![](/images/2019/02/Can-you-see-the-fear-in-my-eye.jpg)
 
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/Can-you-see-the-fear-in-my-eye.jpg)This was the one photo of me actually at DefCon, I was hacking away at 5 badges and an official photographer grabbed this photo of me
-
-
-
-
+This was the one photo of me actually at DefCon, I was hacking away at 5 badges and an official photographer grabbed this photo of me
 
 ## After DefCon
 
-
-
-
-
-
-
 It was finally time to party, but I was pretty tired after all this and came down with a cold, so I was sick the last night of DefCon and missed out on a massive party.
 
-
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/Party-bath-1024x576.jpg) Nothing says fun like the party bath full of beer 
-
-
-
-
+![](/images/2019/02/Party-bath.jpg) Nothing says fun like the party bath full of beer 
 
 And the following day we were off, we were leaving Las Vegas to grab a flight out of Los Angeles and there wasn't a flight we could take, so we grabbed a rental car.
 
-
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/We-had-a-nice-car-1024x576.jpg)We might have got something a tiny bit better than the stock model. The Dodge Charger 5.7L V8 HEMI.
-
-
-
-
+![](/images/2019/02/We-had-a-nice-car.jpg)We might have got something a tiny bit better than the stock model. The Dodge Charger 5.7L V8 HEMI.
 
 ## What did I learn ?
 
-
-
-
-
-
-
 DefCon was pretty amazing, a lot of firsts for me, but more than anything it was pretty cool to get exposed to the massive world of hacking and security. 
-
-
-
-
-
-
 
 As well as seeing how much people care about and have fun with an area of technology that I'm less exposed to. Also, now when I see security articles, I sometimes have a reference  point to expand my knowledge base off rather than just skip to the next  news item. 
 
-
-
-
-
-
-
 ## Where to from here ?
-
-
-
-
-
-
 
 I've actually started hacking with hardware a bit more and the interest there has grown quite a lot for me, I'm hoping to have a project to show off soon, but it is a "When it's done" type affair.
 
-
-
-
-
-
-
 Everyone always says your first DefCon is a whirlwind of experiences that you just get swept up in, and this was certainly true for me, I'd like to go again sometime, and knowing what I now know, prepare a bit better, see a bit more, learn a bit more, hopefully maybe  even teach some people some stuff.
 
+![](/images/2019/02/DefConLogo.png)
 
-
-
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/02/DefConLogo.png)Till the next time!
+Till the next time!
 
 
 

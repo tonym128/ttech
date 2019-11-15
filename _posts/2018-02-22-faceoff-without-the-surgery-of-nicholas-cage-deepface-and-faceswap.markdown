@@ -1,5 +1,5 @@
 ---
-author: user
+author: tonym128
 comments: false
 date: 2018-02-22 08:39:52+00:00
 layout: post
@@ -15,13 +15,15 @@ tags:
 ---
 
 ## What is FaceSwap ?
-
+![](/images/2018/02/FaceMask.jpg)
 
 FaceSwap is a technology used for taking one face and swapping it with another in an image or video. What makes this news ? All the tools are available for anyone to use now!
 
 It's an interesting topic and it's pretty current, I found the images of Nic Cage everywhere absolutely amazing, especially the Indianna Jones video, that was fantastic. Take a look at the video below!
 
-https://thumbs.gfycat.com/FlawlessForthrightAmericanshorthair-mobile.mp4
+<video muted controls>
+    <source src="https://thumbs.gfycat.com/FlawlessForthrightAmericanshorthair-mobile.mp4" type="video/mp4">
+</video>
 
 I love the technology and the way it's so accessible, unfortunately that comes with the bad part of it too, that people are using this to put people into situations they were never in.
 
@@ -42,7 +44,7 @@ I want to see how easy it is for a person like me to grab the required tools, an
 ### The tools
 
 
-![](https://lh3.googleusercontent.com/Ns1ea98duQ9csaHN7EQjl6SbnLMxg_ou9bLhZA8KLqbeSv7gg7XXGX1rqtWXgnjiJjBQpiTZWyxIhtxjnWPKTM27-J9T0QI=s688)![python™](http://ttech.mamacos.media/wp-content/uploads/2019/08/python-logo.png)![OpenCV logo](https://opencv.org/assets/theme/logo.png)
+![tensorflow](/images/2018/02/tensorflow.png)![python™](/images/2019/08/python-logo.png)![OpenCV logo](/images/2018/02/opencv.png)
 
 The toolset runs on [Python](https://www.python.org/) and uses [OpenCV](https://opencv.org/) and [TensorFlow](https://www.tensorflow.org/) on a [GPU](http://www.nvidia.com/object/what-is-gpu-computing.html), this is pretty standard for this area from what I understand.
 
@@ -58,7 +60,7 @@ Some of the libraries used are fascinating, to have the images setup the way you
 
 Once I had my two face sets from an image search on my Google Photo's by Name, I pulled the faces out and cleaned out the out directories of the additional people who appeared in the photos.
 
-![](http://ttech.tonym128.com/wp-content/uploads/2018/02/Blurreed-Image-Search-300x282.png)![](http://ttech.tonym128.com/wp-content/uploads/2018/02/Blurreed-Image-Search-1-300x282.png)
+![](/images/2018/02/Blurreed-Image-Search.png)![](/images/2018/02/Blurreed-Image-Search-1.png)
 
 This took about an hour of manual labour, but there is now a very freaky collection of 300+ photos of me and my wife in single folders. (The actual reccomendation is about 3000 photos, so I'm well under, this might bite me later)
 
@@ -72,7 +74,7 @@ Now that we have training data, we actually need to train a model that will enco
 
 The training step runs for a very long time and the longer you run it the better a result you get, thankfully this isn't a one off process and you can pick up your training to make the resultant image better quite easily.
 
-![Working Hard](http://ttech.tonym128.com/wp-content/uploads/2018/02/Working-Hard-300x161.png)
+![Working Hard](/images/2018/02/Working-Hard.png)
 
 
 ## Make me images
@@ -82,7 +84,7 @@ The process of making images is quite straight forward of providing a source ima
 
 After a few minutes of processing, my data loss went down to 0.055 and my images looked like a child had cut a copy of the one face out and stuck inside the other!
 
-![](http://ttech.tonym128.com/wp-content/uploads/2018/02/FaceSwap-300x148.png)
+![](/images/2018/02/FaceSwap.png)
 
 You can see above how the alignment is actually amazing, but unfortunately without the face shapes being similar that effect is not believable at all. Even more so when we move to video.
 
@@ -103,7 +105,7 @@ Interestingly the process of creating a video is the same as with images, though
 
 The technology is amazing and the work that has been put in is awesome, but there is a lot of manual tinkering to get to where you want to be, so automating this would be amazing.
 
-**I had a few ideas.**
+*I had a few ideas.*
 
 
 ### Face Classification from Source Images
@@ -143,4 +145,4 @@ Adobe and Lyra both have products in testing to do just this, with one minute of
 
 And fake! or whatever you want it to be, depending on how you look at it.
 
-https://www.youtube.com/watch?v=4hMa-gKljhw
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4hMa-gKljhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

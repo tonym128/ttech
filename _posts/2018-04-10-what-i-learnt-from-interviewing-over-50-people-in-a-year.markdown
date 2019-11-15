@@ -1,5 +1,5 @@
 ---
-author: user
+author: tonym128
 comments: false
 date: 2018-04-10 20:51:08+00:00
 layout: post
@@ -15,7 +15,7 @@ I went from literally no interviewing experience to an experienced interviewer i
 
 I found it a fascinating experience and thought it would be good to share.
 
-![](http://ttech.tonym128.com/wp-content/uploads/2018/04/Puzzle-300x186.jpg)
+![](/images/2018/04/Puzzle.jpg)
 
 
 ## What I want to accomplish
@@ -23,7 +23,7 @@ I found it a fascinating experience and thought it would be good to share.
 
 I'd like to reflect on the experience and share some of what I learnt, as well as what I wish I had known when I started out, like the things I wish I'd known to do, and what not to do.
 
-![](http://ttech.tonym128.com/wp-content/uploads/2018/04/abc-300x200.jpg)
+![](/images/2018/04/abc.jpg)
 
 
 ## What was my first interview like
@@ -33,7 +33,7 @@ I think I was more scared than the person I was interviewing, I'd been at my job
 
 The most surreal part of the interview was when the candidate asked me if I liked working here and the best I could do was look around and then said the people here seem very nice.
 
-![](http://ttech.tonym128.com/wp-content/uploads/2018/04/Algebra-300x94.jpg)
+![](/images/2018/04/Algebra.jpg)
 
 
 ## What was my last interview like
@@ -56,7 +56,7 @@ It was also a great way to get exposure to different divisions in the company (H
 It was rewarding and fun to work in a different area to my normal day to day work as well, giving me something to look forwards to and break the normal days grind, while still providing a lot of value to the company.
 
 
-## ![](http://ttech.tonym128.com/wp-content/uploads/2018/04/Checklist-1-300x155.jpg)
+## ![](/images/2018/04/Checklist-1.jpg)
 
 
 
@@ -86,10 +86,10 @@ It was rewarding and fun to work in a different area to my normal day to day wor
   * Make it a great experience
 
 
-[See here for the expanded list](http://ttech.tonym128.com/2018/04/10/interviewing-dos-and-donts/)
+[See here for the expanded list](/2018/04/10/interviewing-dos-and-donts/)
 
 
-# ![](http://ttech.tonym128.com/wp-content/uploads/2018/04/Don’t-1-290x300.jpg)
+# ![](/images/2018/04/Dont-1.jpg)
 
 
 
@@ -114,7 +114,7 @@ It was rewarding and fun to work in a different area to my normal day to day wor
   * Judge Candidates Against Each Other
 
 
-[See here for the expanded list](http://ttech.tonym128.com/2018/04/10/interviewing-dos-and-donts/)
+[See here for the expanded list](/2018/04/10/interviewing-dos-and-donts/)
 
 
 ## Closing

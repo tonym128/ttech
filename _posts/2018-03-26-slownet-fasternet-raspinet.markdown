@@ -1,5 +1,5 @@
 ---
-author: user
+author: tonym128
 comments: false
 date: 2018-03-26 21:01:58+00:00
 layout: post
@@ -21,7 +21,7 @@ First thing was isolating the problem . I installed all the monitoring tools I c
 
 I managed to find the app causing all my issues, it was [Google Photo](http://photos.google.com/)'s but there were no throttling options in the software to stop it.
 
-![Image result for google photos logo](http://ttech.mamacos.media/wp-content/uploads/2019/08/2000px-Google_Photos_icon.svg.png)
+![Image result for google photos logo](/images/2019/08/2000px-Google_Photos_icon.svg.png)
 
 I was honestly so surprised, but anytime a device in our house came home to land on the WiFi, we couldn't browse the web until it was done uploading it's photo's.
 
@@ -35,7 +35,7 @@ Back to the cons! No internet for quite a substantial portion of time until vide
 
 I wanted internet all the time, I didn't want to manually have to throttle all connections on the network, install software on each device to do the same.
 
-![Image result for slow internet meme](http://ttech.mamacos.media/wp-content/uploads/2019/08/slow-internet_o_1592157.jpg)
+![Image result for slow internet meme](/images/2019/08/slow-internet_o_1592157.jpg)
 
 I wanted something to automatically take care of an issue I couldn't solve inside the Google Photo's app. I had an idea that I could setup a device which would automatically share the bandwidth fairly between all our users and programs fairly.
 
@@ -47,17 +47,15 @@ The [Raspberry Pi](https://www.raspberrypi.org/products/) is an awesome piece of
 
 A brief investigation into the Raspberry Pi 3 showed that you can run it in a [Access Point](https://en.wikipedia.org/wiki/Wireless_access_point) mode, and with the Ethernet wired into the network, the rest would be software.
 
-![Image result](http://ttech.mamacos.media/wp-content/uploads/2019/08/linksys_wap54g-400-56a1ad223df78cf7726cf853.jpg)
+![Image result](/images/2019/08/linksys_wap54g-400-56a1ad223df78cf7726cf853.jpg)
 
 The initial problem was to setup the Pi as a WiFi router, which is quite well documented on the web, I followed this [guide](https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/).
 
 This will help you setup a Wifi Access Point, [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) and [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) and absolutely nothing was solved yet... no [QoS](https://en.wikipedia.org/wiki/Quality_of_service).
 
-![Image result for qos logo](http://ttech.mamacos.media/wp-content/uploads/2019/08/qos_1440-1024x1024.png)
-
 The last piece of the puzzle. I was actually quite surprised that a piece of software called [IP Tables](https://en.wikipedia.org/wiki/Iptables), which is normally used for directing traffic was actually able do quality management and throttling.
 
-![](http://ttech.mamacos.media/wp-content/uploads/2019/08/1450px-Netfilter-packet-flow.svg.png)
+![](/images/2019/08/1450px-Netfilter-packet-flow.svg.png)
 
 The IP Tables result was actually pretty great, but was quite complicated to setup, I modified a [guide](http://lartc.org/howto/lartc.cookbook.fullnat.intro.html) I found and ... we now have the best internet we ever had at home, even though the line is quite slow, it's never felt slow for us again.
 
@@ -69,10 +67,6 @@ Using Traffic Control (tc) command you can setup discovery queues which allow tr
 
     
     tc qdisc add dev eth0 root handle 1: htb default 15
-
-
-
-    
     tc class add dev eth0 parent 1:1 classid 1:10 htb rate 80kbit ceil 80kbit prio 0
     
 
@@ -116,6 +110,7 @@ This actually accomplished everything I wanted, but there were a few things that
 
 Back to cat memes!
 
-![Image result for cat soul starve](http://ttech.mamacos.media/wp-content/uploads/2019/08/51b4802111d0f287b1fa7c914e3e8fe0.jpg)
+![Image result for cat soul starve](/images/2019/08/51b4802111d0f287b1fa7c914e3e8fe0.jpg)
 
-![Related image](http://ttech.mamacos.media/wp-content/uploads/2019/08/img_5d5ffbe3d1d61.jpg)![Image result for high speed cat meme](https://memegenerator.net/img/instances/500x/67836469/hes-so-high-speed.jpg)
+![Related image](/images/2019/08/img_5d5ffbe3d1d61.jpg)
+

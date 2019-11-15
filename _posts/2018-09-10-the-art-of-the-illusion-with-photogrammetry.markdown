@@ -1,5 +1,5 @@
 ---
-author: user
+author: tonym128
 comments: false
 date: 2018-09-10 21:42:22+00:00
 layout: post
@@ -23,72 +23,19 @@ tags:
 
 ##  The Problem 
 
-
-
-
-
-
-
-
 This was one of the most amazing finds of the last year for me. As someone with no real classical artistic talent, I find the idea of taking real world assets and getting them into computers fascinating.
-
-
-
-
-
-
-
-
-
 
 There are many different ways of doing this and processes for it. There is a way of animating called [Rotoscoping](https://en.wikipedia.org/wiki/Rotoscoping) in which you take a stream of pictures and trace movement to get a life like feel for animation.
 
-
-
-
-
-
-
-
-
-![horse](http://ttech.mamacos.media/wp-content/uploads/2018/09/horse.gif) Rotoscoping 
-
-
-
-
-
-
+![horse](/images/2018/09/horse.gif) Rotoscoping 
 
 There is [cel shading](https://en.wikipedia.org/wiki/Cel_shading) which is the idea of taking an image and transforming it into something that looks more two dimensional and flat.
 
-
-
-
-
-
-
-![Toon-shader](http://ttech.mamacos.media/wp-content/uploads/2018/09/Toon-shader.jpg)
-
-
-
-
-
-
-
+![Toon-shader](/images/2018/09/Toon-shader.jpg)
 
 Of all of them, the most magical to me has always been [photogrammetry](https://en.wikipedia.org/wiki/Photogrammetry).
 
-
-
-
-
-
-
-
-
-<blockquote>**Photogrammetry** is the science of making measurements from photographs, especially for recovering the exact positions of surface points. Photogrammetry is as old as modern [photography](https://en.wikipedia.org/wiki/Photography), dating to the mid-19th century and in the simplest example, the distance between two points that lie on a plane parallel to the photographic [image plane](https://en.wikipedia.org/wiki/Image_plane), can be determined by measuring their distance on the image, if the [scale](https://en.wikipedia.org/wiki/Scale_(map)) (_s_) of the image is known. 
-> 
-> https://en.wikipedia.org/wiki/Photogrammetry  
+<blockquote>The science of making measurements from photographs, especially for recovering the exact positions of surface points. Photogrammetry is as old as modern photography, dating to the mid-19th century and in the simplest example, the distance between two points that lie on a plane parallel to the photographic image plane, can be determined by measuring their distance on the image, if the scale of the image is known. 
 </blockquote>
 
 
@@ -119,7 +66,7 @@ I took my ~200 photo's of a statue in Cannizaro Park of [Dianna and the Fawn](ht
 
 
 
-![Photosynth2011Synth](http://ttech.mamacos.media/wp-content/uploads/2018/09/Photosynth2011Synth.jpg) PhotoSynth 
+![Photosynth2011Synth](/images/2018/09/Photosynth2011Synth.jpg) PhotoSynth 
 
 
 
@@ -143,7 +90,7 @@ The problem was with this service gone, there was no easy way for me to take my 
 
 
 
-![Cannizaro Park 023](http://ttech.mamacos.media/wp-content/uploads/2018/09/Cannizaro-Park-023.jpg) Diana and the Fawn 
+![Cannizaro Park 023](/images/2018/09/Cannizaro-Park-023.jpg) Diana and the Fawn 
 
 
 
@@ -170,7 +117,7 @@ Fast forward to a week ago and I found a wonderful program called [Meshroom](htt
 
 
 
-![anim-meshroom-once.gif](http://ttech.mamacos.media/wp-content/uploads/2018/09/anim-meshroom-once.gif)Meshroom
+![anim-meshroom-once.gif](/images/2018/09/anim-meshroom-once.gif)Meshroom
 
 
 
@@ -194,7 +141,7 @@ I was able to bring my images back to life using Meshroom and Blender.
 
 
 
-![Logo_Blender.svg](http://ttech.mamacos.media/wp-content/uploads/2018/09/Logo_Blender.svg_.png)Blender
+![Logo_Blender.svg](/images/2018/09/Logo_Blender.svg_.png)Blender
 
 
 
@@ -212,7 +159,8 @@ And following an amazing video by [CG Geek](https://www.youtube.com/channel/UCG8
 
 
 
-https://www.youtube.com/watch?v=k4NTf0hMjtY&feature=youtu.be&t=1180
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k4NTf0hMjtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+&feature=youtu.be&t=1180
 
 
 
@@ -228,7 +176,7 @@ Loading my ~200  images into Meshroom with default setting and hitting go result
 
 
 
-![photos.jpg](http://ttech.mamacos.media/wp-content/uploads/2018/09/photos.jpg) A small sub section of the images
+![photos.jpg](/images/2018/09/photos.jpg) A small sub section of the images
 
 
 
@@ -236,7 +184,7 @@ Loading my ~200  images into Meshroom with default setting and hitting go result
 
 
 
-![Meshroom](http://ttech.mamacos.media/wp-content/uploads/2018/09/Meshroom.jpg) Loaded into Meshroom
+![Meshroom](/images/2018/09/Meshroom.jpg) Loaded into Meshroom
 
 
 
@@ -287,7 +235,7 @@ Once I imported the Obj Model from Meshroom into Blender I was greeted with a lo
 
 
 
-![Blender2.JPG](http://ttech.mamacos.media/wp-content/uploads/2018/09/Blender2.jpg)
+![Blender2.JPG](/images/2018/09/Blender2.jpg)
 
 
 
@@ -311,7 +259,7 @@ I was very pleased with the model.
 
 
 
-![WireFrame.JPG](http://ttech.mamacos.media/wp-content/uploads/2018/09/WireFrame.jpg) 3D Wireframe Model
+![WireFrame.JPG](/images/2018/09/WireFrame.jpg) 3D Wireframe Model
 
 
 
@@ -327,7 +275,7 @@ And the texture look wasn't looking too bad either
 
 
 
-![Textured.JPG](http://ttech.mamacos.media/wp-content/uploads/2018/09/Textured.jpg) Textured in Blender
+![Textured.JPG](/images/2018/09/Textured.jpg) Textured in Blender
 
 
 
@@ -343,7 +291,7 @@ Unfortunately my final rendered output was looking like it was in need of a bit 
 
 
 
-![Dianna 1.JPG](http://ttech.mamacos.media/wp-content/uploads/2018/09/Dianna-1.jpg) A very cement look and a lot of additional scenery
+![Dianna 1.JPG](/images/2018/09/Dianna-1.jpg) A very cement look and a lot of additional scenery
 
 
 
@@ -357,13 +305,7 @@ I was able to animate this and get a result out into video, which I was very ple
 
 
 
-
-https://youtu.be/gf-GX59bd3c
-
-
-
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gf-GX59bd3c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 But there was more work to be done, the grounds around the statue didn't look very good, but it was a quick step to remove all that additional scenery and put some lights into the scene to polish it up.
 
@@ -388,7 +330,8 @@ And this took me to my final output
 
 
 
-https://www.youtube.com/watch?v=fnIPAXWv5Pw&feature=youtu.be
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fnIPAXWv5Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+&feature=youtu.be
 
 
 

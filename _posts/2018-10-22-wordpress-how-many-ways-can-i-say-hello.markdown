@@ -1,5 +1,5 @@
 ---
-author: user
+author: tonym128
 comments: false
 date: 2018-10-22 21:15:15+00:00
 layout: post
@@ -98,7 +98,7 @@ I started by testing on **Wordpress.com** just to see if I could be happy enough
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2018/10/bitnamilogo.png)
+![](/images/2018/10/bitnamilogo.png)
 
 
 
@@ -106,7 +106,7 @@ I started by testing on **Wordpress.com** just to see if I could be happy enough
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2018/10/lightsail.png)
+![](/images/2018/10/lightsail.png)
 
 
 
@@ -128,7 +128,7 @@ I started by testing on **Wordpress.com** just to see if I could be happy enough
 
 
 
-![](http://ttech.mamacos.media/wp-content/uploads/2018/10/check.png)
+![](/images/2018/10/check.png)
 
 
 
@@ -145,7 +145,7 @@ Self Hosted, Easy to Update, Follows Web Best Practices, Themed, Database driven
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2018/10/Cross.png)
+![](/images/2018/10/Cross.png)
 
 
 
@@ -191,7 +191,7 @@ I got a Domain setup pretty quickly using **[AWS Route 53](https://aws.amazon.co
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2018/10/lets.png)
+![](/images/2018/10/lets.png)
 
 
 
@@ -224,7 +224,7 @@ There were a ton of amazing plugins that I played with along the way, but I real
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2018/10/Analytics.png)
+![](/images/2018/10/Analytics.png)
 
 
 
@@ -232,7 +232,7 @@ There were a ton of amazing plugins that I played with along the way, but I real
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2018/10/Analytics2.png)
+![](/images/2018/10/Analytics2.png)
 
 
 
@@ -248,7 +248,7 @@ Getting **Google Analytics** up was a good idea, mostly makes me cry, but a good
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2018/10/AMP.png)
+![](/images/2018/10/AMP.png)
 
 
 
@@ -272,7 +272,7 @@ I used almost all the plugins I could find for Wordpress and eventually settled 
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2018/10/Polly.png)
+![](/images/2018/10/Polly.png)
 
 
 
@@ -294,7 +294,7 @@ I used almost all the plugins I could find for Wordpress and eventually settled 
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2018/10/TTech.png)
+![](/images/2018/10/TTech.png)
 
 
 

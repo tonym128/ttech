@@ -1,5 +1,5 @@
 ---
-author: user
+author: tonym128
 comments: false
 date: 2019-04-21 21:57:35+00:00
 layout: post
@@ -14,11 +14,7 @@ wordpress_id: 290
 
 ## That's quite a sensationalist title!
 
-
-
-
-
-
+![](/images/2019/04/Badge.jpg)
 
 I didn't honestly set out to build a console, but it was a fun journey and I thought it would be great to share. There's a couple learnings I would like to pass on and a couple hopes and dreams I have for the future.
 
@@ -36,7 +32,7 @@ Living in South Africa, I sometimes feel a little out of touch with all the cool
 
 
 
-My journey started about 3 years ago when I was given an ESP8266 for almost nothing from a friend who ordered them from overseas. **All **you have to do is write a bit of C code, upload via USB and it can host a website!
+My journey started about 3 years ago when I was given an ESP8266 for almost nothing from a friend who ordered them from overseas. *All* you have to do is write a bit of C code, upload via USB and it can host a website!
 
 
 
@@ -82,7 +78,7 @@ I have always wanted to write games and for various reasons, I've never finished
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/IMG_9328-1-1-1024x575.jpg)Pic stolen from Andrew's great [blog post](https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/) on the BSides 2016 badge 
+![](/images/2019/04/IMG_9328-1-1.jpg)Pic stolen from Andrew's great [blog post](https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/) on the BSides 2016 badge 
 
 
 
@@ -96,7 +92,7 @@ The badge was perfect for it. The ESP8266 is a great processor, the LIPO on the 
 
 
 
-![](https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg)
+![](/images/2019/11/ArduinoAPP-01.svg)
 
 
 
@@ -134,7 +130,7 @@ The game was going to be about the journey to DefCon. You fly a plan to the Stat
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/20180925_224654-1024x768.jpg)
+![](/images/2019/04/20180925_224654.jpg)
 
 
 
@@ -146,7 +142,7 @@ You drive from the Airport to the Hotel ( Stage 3 and 4)
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/image.png)
+![](/images/2019/04/image.png)
 
 
 
@@ -158,7 +154,7 @@ And you then have to hunt your way through the hallways to the conference venue 
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/image-1.png)
+![](/images/2019/04/image-1.png)
 
 
 
@@ -170,7 +166,7 @@ There were a couple special effects and some code I'm really proud of in there, 
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/Rotozoomer.png)
+![](/images/2019/04/Rotozoomer.png)
 
 
 
@@ -230,7 +226,7 @@ I was happy with components of the ESP8266 and the SSD1306 screen, but I was ver
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/image-2.png)The idea was great and it looked greatm but...
+![](/images/2019/04/image-2.png)The idea was great and it looked greatm but...
 
 
 
@@ -274,7 +270,7 @@ I wired it all up on a [breadboard](https://en.wikipedia.org/wiki/Breadboard) an
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/IMG_20190225_093053_484-1024x576.jpg)4 input buttons on the left, the screen and processor in the middle, and down right I added audio at one point!
+![](/images/2019/04/IMG_20190225_093053_484.jpg)4 input buttons on the left, the screen and processor in the middle, and down right I added audio at one point!
 
 
 
@@ -286,7 +282,7 @@ After this I moved onto the protoboard version with a Wemos D1 Mini which was ni
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/Badge-1.jpg)Speakers on the back... sometimes.  
+![](/images/2019/04/Badge-1.jpg)Speakers on the back... sometimes.  
 
 
 
@@ -309,7 +305,8 @@ I also decided that making this cross compile was now a goal too, so that I coul
 
 
 
-Brett Victor gave an amazing talk on [Inventing on Principle ](https://www.youtube.com/watch?v=8QiPFmIMxFc)a few years back and I always keep it in mind.
+Brett Victor gave an amazing talk on [Inventing on Principle ](<iframe width="560" height="315" src="https://www.youtube.com/embed/8QiPFmIMxFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+)a few years back and I always keep it in mind.
 
 
 
@@ -331,7 +328,7 @@ Windows Console
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/image-3.png)Running Maze Runner on Windows in a Console Window
+![](/images/2019/04/image-3.png)Running Maze Runner on Windows in a Console Window
 
 
 
@@ -343,7 +340,7 @@ Then the Linux Console
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/Screenshot-from-2019-04-21-22-40-13-1024x562.png)Running the Matrix code in a Linux Console
+![](/images/2019/04/Screenshot-from-2019-04-21-22-40-13.png)Running the Matrix code in a Linux Console
 
 
 
@@ -355,7 +352,7 @@ Then [SDL](https://www.libsdl.org/index.php)
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/Screenshot-from-2019-04-21-22-35-34-1024x623.png)Running the Matrix code via SDL2 on Linux
+![](/images/2019/04/Screenshot-from-2019-04-21-22-35-34.png)Running the Matrix code via SDL2 on Linux
 
 
 
@@ -367,7 +364,7 @@ Once I had SDL up and running, I realised that Emscripten worked with that so I 
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/image-4.png)Maze game in a Web Browser
+![](/images/2019/04/image-4.png)Maze game in a Web Browser
 
 
 
@@ -387,7 +384,7 @@ The biggest items were input, timing and output, for which I built seperate part
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/CMake.png)CMake Logo
+![](/images/2019/04/CMake.png)CMake Logo
 
 
 
@@ -439,7 +436,7 @@ And thus was launched [ESP8266 Game On](https://github.com/tonym128/ESP8266GameO
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/logo.png)
+![](/images/2019/04/logo.png)
 
 
 
@@ -478,7 +475,8 @@ And as the new flagship title I implemented my own from scratch game Asteroid!
 
 
 
-https://www.youtube.com/watch?v=uzuhK70_1LQ&feature=youtu.be
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uzuhK70_1LQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ESP8266 Game Engine Asteroid! in play
@@ -495,7 +493,7 @@ ESP8266 Game Engine Asteroid! in play
 
 
 
-**Multi-platform **(Windows, Linux, SDL, HTML5 and ESP8266)  
+**Multi-platform** (Windows, Linux, SDL, HTML5 and ESP8266)  
 _The code runs on all the above listed platforms. Catering to the main loop, the timing, display, input and audio_
 
 
@@ -511,7 +509,7 @@ _Since the sprites are basically bitmasks, you can double up their usage as a ma
 
 
 
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/Flying-Game.png)
+![](/images/2019/04/Flying-Game.png)
 
 
 
@@ -542,44 +540,17 @@ _Think Super Nintendo Mode 7 type effects. Zooming and rotating sprites. The ast
 
 
 
-
-
-https://youtu.be/1DUSoUfrQDA
-
-
-
-
-
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1DUSoUfrQDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Powerfull Hardware platform**  
 The ESP8266 is surprisingly powerful, able to play tech demos like Wolfenstein mazes and Voxel landscapes, when used directly.
 
-
-
-
-
-
-
-
-https://www.youtube.com/watch?v=O644-CUG-7Y
-
-
-
-
-
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O644-CUG-7Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Built in Font Engine**  
 _There is a built in font with help functions, specifically built for the screen size_
 
-
-
-
-
-![](https://ttech.mamacos.media/wp-content/uploads/2019/04/image-5.png)-= Asteroid! =-
+![](/images/2019/04/image-5.png)-= Asteroid! =-
 
 
 
