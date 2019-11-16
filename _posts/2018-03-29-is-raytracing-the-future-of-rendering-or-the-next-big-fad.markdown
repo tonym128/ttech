@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2018-03-29 22:11:21+00:00
 layout: post
-link: http://ttech.mamacos.media/2018/03/30/is-raytracing-the-future-of-rendering-or-the-next-big-fad/
+link: https://ttech.mamacos.media/2018/03/30/is-raytracing-the-future-of-rendering-or-the-next-big-fad/
 slug: is-raytracing-the-future-of-rendering-or-the-next-big-fad
 title: Is Raytracing the future of rendering or the next big fad ?
 wordpress_id: 119

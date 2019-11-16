@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2018-02-22 08:39:52+00:00
 layout: post
-link: http://ttech.mamacos.media/2018/02/22/faceoff-without-the-surgery-of-nicholas-cage-deepface-and-faceswap/
+link: https://ttech.mamacos.media/2018/02/22/faceoff-without-the-surgery-of-nicholas-cage-deepface-and-faceswap/
 slug: faceoff-without-the-surgery-of-nicholas-cage-deepface-and-faceswap
 title: FaceOff without the surgery... DeepFace and FaceSwap
 wordpress_id: 52

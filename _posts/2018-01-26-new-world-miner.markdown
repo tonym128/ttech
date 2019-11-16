@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2018-01-26 12:14:41+00:00
 layout: post
-link: http://ttech.mamacos.media/2018/01/26/new-world-miner/
+link: https://ttech.mamacos.media/2018/01/26/new-world-miner/
 slug: new-world-miner
 title: A miner in a new world
 wordpress_id: 1
