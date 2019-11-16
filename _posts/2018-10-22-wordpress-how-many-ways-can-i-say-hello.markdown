@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2018-10-22 21:15:15+00:00
 layout: post
-link: http://ttech.mamacos.media/2018/10/22/wordpress-how-many-ways-can-i-say-hello/
+link: https://ttech.mamacos.media/2018/10/22/wordpress-how-many-ways-can-i-say-hello/
 slug: wordpress-how-many-ways-can-i-say-hello
 title: Wordpress, how many ways can I say hello ?
 wordpress_id: 232

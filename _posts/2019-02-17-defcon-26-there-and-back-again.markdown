@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2019-02-17 20:00:40+00:00
 layout: post
-link: http://ttech.mamacos.media/2019/02/17/defcon-26-there-and-back-again/
+link: https://ttech.mamacos.media/2019/02/17/defcon-26-there-and-back-again/
 slug: defcon-26-there-and-back-again
 title: DefCon 26 There and back again
 wordpress_id: 256

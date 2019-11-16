@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2018-03-26 21:01:58+00:00
 layout: post
-link: http://ttech.mamacos.media/2018/03/26/slownet-fasternet-raspinet/
+link: https://ttech.mamacos.media/2018/03/26/slownet-fasternet-raspinet/
 slug: slownet-fasternet-raspinet
 title: Slownet :-( , Fasternet? Raspinet!
 wordpress_id: 111

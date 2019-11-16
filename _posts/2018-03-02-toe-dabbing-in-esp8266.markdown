@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2018-03-02 11:38:28+00:00
 layout: post
-link: http://ttech.mamacos.media/2018/03/02/toe-dabbing-in-esp8266/
+link: https://ttech.mamacos.media/2018/03/02/toe-dabbing-in-esp8266/
 slug: toe-dabbing-in-esp8266
 title: Toe Dabbing in ESP8266
 wordpress_id: 69

@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2018-03-16 22:33:25+00:00
 layout: post
-link: http://ttech.mamacos.media/2018/03/17/the-pixelated-dawn-of-virtual-reality/
+link: https://ttech.mamacos.media/2018/03/17/the-pixelated-dawn-of-virtual-reality/
 slug: the-pixelated-dawn-of-virtual-reality
 title: The pixelated dawn of virtual reality
 wordpress_id: 105

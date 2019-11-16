@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2019-04-21 21:57:35+00:00
 layout: post
-link: http://ttech.mamacos.media/2019/04/21/building-your-own-game-console/
+link: https://ttech.mamacos.media/2019/04/21/building-your-own-game-console/
 slug: building-your-own-game-console
 title: Building your own game console
 wordpress_id: 290

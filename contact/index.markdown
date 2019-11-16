@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2018-02-16 12:12:05+00:00
 layout: page
-link: http://ttech.mamacos.media/contact/
+link: https://ttech.mamacos.media/contact/
 slug: contact
 title: Contact
 wordpress_id: 9

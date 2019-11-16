@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2018-04-10 20:07:27+00:00
 layout: post
-link: http://ttech.mamacos.media/2018/04/10/interviewing-dos-and-donts/
+link: https://ttech.mamacos.media/2018/04/10/interviewing-dos-and-donts/
 slug: interviewing-dos-and-donts
 title: Interviewing do's and don'ts
 wordpress_id: 132

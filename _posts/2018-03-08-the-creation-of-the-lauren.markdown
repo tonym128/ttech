@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2018-03-08 20:37:21+00:00
 layout: post
-link: http://ttech.mamacos.media/2018/03/08/the-creation-of-the-lauren/
+link: https://ttech.mamacos.media/2018/03/08/the-creation-of-the-lauren/
 slug: the-creation-of-the-lauren
 title: The creation of Lauren
 wordpress_id: 85
