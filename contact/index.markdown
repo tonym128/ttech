@@ -12,7 +12,7 @@ wordpress_id: 9
 
 
 
-You can get hold of me at tony@mamacos.media
+You can get hold of me at tmamacos@gmail.com
 
 
 
