@@ -117,7 +117,7 @@ This theme tied quite nicely into a few prototypes I had knocking around already
 The second scene is now in the office, looking for the security screens. I had implemented the code for a Raycaster (think Wolfenstein) from some fantastic tutorials by Lode for the ESP8266 and porting the engine over and upgradeing from black and white was great. Instead of using a ton of textures, I just went with colour bitmasking (taking away or adding certain colours to an existing bitmap). Adding the floor and ceiling add a lot visually to the scene. I was originally planning on going with a randomly generated level, but in the end I settled on a static level to store it in ROM and save precious memory. 
 
 <video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
-	<source src="/images/2019/11/code_badge_Wolf.mp4" type="video/mp4">
+	<source src="/images/2019/11/code_badge_wolf.mp4" type="video/mp4">
 </video>
 
 The 3rd and final scene, interspersed with the walking around the office scene, is the virtual reality scene, where you dive into the computer and go to secure the access key. This is one of the pieces of code which I fought the hardest for, it's a Voxel landscape and used two textures for the land and the height map. It also has a LOT of floating point calculations and took a good deal of time to optimise, I played with a LOT of ideas for speed and performance (interlacing, lower resolutions, different viewing angles), but mostly it just took tightening up loops and applying well established optimisations on the process. 
