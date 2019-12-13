@@ -28,9 +28,9 @@ wordpress_id: 290
 
 This has been a long time in the making and it's a straight follow on to my last blog about making a simple hardware console.
 
-Flash forward 6 months later, we're in the run up to BSides Cape Town 2019 and I've been working for a long time on the firmware for the badge.
+Flash forward 6+ months later, we've had the BSides Cape Town 2019 conference.
 
-We've made something quite interesting hardware wise, and I hope you enjoy the software too.
+We made something quite interesting hardware wise, and I hope you enjoy the software too.
 
 To move onwards from the awesome BSides 2016 badge, we've gone with a colour screen, a dual core processor and touch buttons, as well as a GIANT battery to power it all, we also have a custom designed 3d printed case for it too! So it's an all out hardware geek fest.
 
@@ -43,7 +43,6 @@ I want to run through the hardware and software that make up the project, the go
 This is probably the easiest place to start since everything gets based on this going forwards.
 
 The components are 
-
 
 ![](/images/2019/11/esp32.png)
 - ESP32 processor. 
@@ -66,6 +65,7 @@ The components are
 	- I've always noted how people are sometimes reticent about touching the badges, really getting their hands into it and playing with it. Having the case will hopefully address that, as well as hopefully give the badge a much more finished product feel.
 
 ## Goals
+
 I was very keen to put something out there to show what the hardware is capable of, something to show how powerful the CPU is and how great the screen is. That to me was some sort of game / tech demo. 
 
 Thankfully the game won out and I've put together a single player game which shows quite a bit of the capabilities of the hardware, as far as I could push it and how much you should be able to do with it.
