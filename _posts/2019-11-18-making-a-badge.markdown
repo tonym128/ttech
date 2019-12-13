@@ -140,6 +140,10 @@ After those big features were in, it was time to add an about screen (which I cr
 
 I got a last hurrah in as well, which was an idea of whether I could or not, that was the Achievements, I am so happy with how fast this was to implement and how great it is actually adding achievements with like 5 lines of code.
 
+<video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
+	<source src="/images/2019/11/badge_achievements.mp4" type="video/mp4">
+</video>
+
 Finally there is still a lot of debug code on the badge, I could have taken this out, but actually still find it quite useful, quite often, so I have left it in. There's the FPS / RAM / Heap Corruption screen. The input debug screen and added during the roate function testing, the FPS output over serial, I always wanted to have a FPS graph on my PC from the badge.
 
 <a name="right">
