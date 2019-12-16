@@ -28,9 +28,9 @@ wordpress_id: 290
 
 This has been a long time in the making and it's a straight follow on to my last blog about making a [simple hardware console](https://ttech.mamacos.media/2019/04/21/building-your-own-game-console.html).
 
-Flash forward 8+ months later, we've had the BSides Cape Town 2019 conference and we made something quite great hardware wise, and I hope you enjoy the software too.
+Flash forward 8+ months later, we've had the [BSides Cape Town 2019 conference](https://bsidescapetown.co.za/) and I think we made something quite great hardware wise, and I hope you enjoy the software too.
 
-To move onwards from the awesome [BSides 2016 badge](https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/), we've gone with a colour screen, a dual core processor and touch buttons, as well as a GIANT battery to power it all, we also have a custom designed 3d printed case for it too! So it's an all out hardware geek fest.
+To move onwards from the awesome [BSides 2016 badge](https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/), which is where all my hardware hackery started, we've gone with a colour screen, a dual core processor and touch buttons, as well as a GIANT battery to power it all, we also have a custom designed 3d printed case for it too! So it's an all out hardware geek fest.
 
 <a name="accomplish">
 
@@ -77,7 +77,7 @@ Mostly I will go away happy if people see the possibilities of the hardware and 
 After about 2 years of on and off upskilling for myself, I can highly reccomend anyone who is interested, give this a go, it's not untennable and unreachable. You just have to go for it.
 
 ## Firmware
-The badge firmware started on a whim after talking to Mike ([Elastic Ninja](https://twitter.com/elasticninja)) about it on and off for a couple months, I had a firmware for similar hardware and it worked with a screen, I figured how hard could it be to port and write some custom code for. It turns out, not that hard, but in the end massively time consuming.
+The badge firmware started on a whim after talking to Mike ([Elastic Ninja](https://twitter.com/elasticninja)) about it on and off for a couple months, I had a firmware for similar hardware and it worked with a screen, I figured how hard could it be to port and write some custom code for. It turns out, relatively straight forwards to start, but in the end massively time consuming to finish :).
 
 ![](/images/2019/11/Badge.jpg)
 
@@ -103,7 +103,6 @@ We wanted to have some sort of competition on the day, so adding a JSON library 
 	<source src="/images/2019/11/code_badge_asteroids.mp4" type="video/mp4">
 </video>
 
-
 After that the focus moved to the single player game, the idea was a take away from an idea I had for a previous badge as well which had never got an official hardware release. The journey to the conference, which morphed into something to match up to the theme of the conference "Everything is broken", the idea that followed was that the servers had been compromised and you had to go to the office as remote access was compromised and get the security keys for your server and then re-secure the hardware.
 
 This theme tied quite nicely into a few prototypes I had knocking around already. I started with a (very) simple driving game, you're in a bakkie and you have to dodge taxi's on the way to the office. The office is in Cape Town, so that's a drive towards table mountain (from an impossible angle, but hey artistic license). The feel of the game was meant to match a crappy version of F1 on the NES, but I felt like I ended up with that and a mash of Mortal Kombat 1 type graphics with the real pixelated graphics I was using.
@@ -112,7 +111,7 @@ This theme tied quite nicely into a few prototypes I had knocking around already
 	<source src="/images/2019/11/code_taxis_to_the_future.mp4" type="video/mp4">
 </video>
 
-The second scene is now in the office, looking for the security screens. I had implemented the code for a Raycaster (think Wolfenstein) from some fantastic tutorials by Lode for the ESP8266 and porting the engine over and upgradeing from black and white was great. Instead of using a ton of textures, I just went with colour bitmasking (taking away or adding certain colours to an existing bitmap). Adding the floor and ceiling add a lot visually to the scene. I was originally planning on going with a randomly generated level, but in the end I settled on a static level to store it in ROM and save precious memory. 
+The second scene is now in the office, looking for the security keys. I had implemented the code for a Raycaster (think Wolfenstein) from some fantastic tutorials by [Lode](https://lodev.org/cgtutor/raycasting.html) for the ESP8266 and porting the engine over and upgradeing from black and white was great. Instead of using a ton of textures, I just went with colour bitmasking (taking away or adding certain colours to an existing bitmap). Adding the floor and ceiling add a lot visually to the scene. I was originally planning on going with a randomly generated level, but in the end I settled on a static level to store it in ROM and save precious memory. 
 
 <video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
 	<source src="/images/2019/11/code_badge_wolf.mp4" type="video/mp4">
@@ -136,6 +135,10 @@ Then the setup screen went in, I added the Name setup screen, Wifi scanning (thi
 
 After those big features were in, it was time to add an about screen (which I created a sine scroller for, another classic demo effect)
 
+<video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
+	<source src="/images/2019/11/badge_about.mp4" type="video/mp4">
+</video>
+
 I got a last hurrah in as well, which was an idea of whether I could or not, that was the Achievements, I am so happy with how fast this was to implement and how great it is actually adding achievements with like 5 lines of code.
 
 <video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
@@ -148,7 +151,7 @@ Finally there is still a lot of debug code on the badge, I could have taken this
 
 # What did I get right
 
-![](/images/2019/11/right.jfif)
+![Right](/images/2019/11/right.jfif)
 
 ## Cross platform
 This was a major win for any new feature going in, being able to debug locally on my desktop allowed me to iterate through and implement a lot of things I would have never had patience for any other way. The Raycaster, Texture mapping and Voxel landscape would have been impossible to do without that. 
@@ -160,7 +163,7 @@ There was a scenario when I worked out I had a memory leak on the badge and for 
 ## Screen speed
 There was actually a worry early on about getting the screen up to speed, and initial tests were showing under 10fps for blank full screen updates.
 
-Thankfully with a really fast library TFT_eSPI we were able to eek out a lot more speed, and wrapping up some calls, using the screen buffer and a fast lookup table for converting to 16 bit from 256 colour and blitting to the screen helped a lot. I also added RLE encoding to the screen so that consecqutive same colours are done in one write.
+Thankfully with a really fast library TFT_eSPI we were able to eek out a lot more speed, and wrapping up some calls, using the screen buffer and a fast lookup table for converting to 16 bit from 256 colour and blitting to the screen helped a lot. I also added RLE encoding to the screen so that consecutive same colours are done in one write.
 
 ## Custom font
 Because of the cross platform nature, I decided to roll my own font, which turned out great, it worked cross platform without issues and eventually benefited some great optimisations writing directly to my screen buffer and getting almost zero overhead for a screen full of text.
@@ -169,7 +172,7 @@ Because of the cross platform nature, I decided to roll my own font, which turne
 
 # What did I get wrong
 
-![](/images/2019/11/wrong.jfif)
+![WRONG!](/images/2019/11/wrong.jfif)
 
 ## Memory management
 I kept writing prototype code with global variables for the demo's, there was no real benefit implementation wise, but this meant that when I start adding all the code into a single project I was using most of my RAM for global variables that I was only using one set of at a particular time, refactoring this took way longer than if I had just done it right at the start. Changing from a struct to a struct pointer is way easier than sorting out randomly using global variables throughout your code.
