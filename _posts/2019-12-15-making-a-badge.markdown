@@ -1,9 +1,9 @@
 ---
 author: tonym128
 comments: false
-date: 2019-11-17 22:55:44+00:00
+date: 2019-12-15 22:55:44+00:00
 layout: post
-link: https://ttech.mamacos.media/2019//21/making-a-badge/
+link: https://ttech.mamacos.media/2019/11/17/making-a-badge/
 slug: making-a-badge
 title: BSides Cape Town 2019 Making a badge
 wordpress_id: 290
@@ -26,13 +26,11 @@ wordpress_id: 290
 
 # The making of my first badge (firmware)
 
-This has been a long time in the making and it's a straight follow on to my last blog about making a simple hardware console.
+This has been a long time in the making and it's a straight follow on to my last blog about making a [simple hardware console](https://ttech.mamacos.media/2019/04/21/building-your-own-game-console.html).
 
-Flash forward 6+ months later, we've had the BSides Cape Town 2019 conference.
+Flash forward 8+ months later, we've had the BSides Cape Town 2019 conference and we made something quite great hardware wise, and I hope you enjoy the software too.
 
-We made something quite interesting hardware wise, and I hope you enjoy the software too.
-
-To move onwards from the awesome BSides 2016 badge, we've gone with a colour screen, a dual core processor and touch buttons, as well as a GIANT battery to power it all, we also have a custom designed 3d printed case for it too! So it's an all out hardware geek fest.
+To move onwards from the awesome [BSides 2016 badge](https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/), we've gone with a colour screen, a dual core processor and touch buttons, as well as a GIANT battery to power it all, we also have a custom designed 3d printed case for it too! So it's an all out hardware geek fest.
 
 <a name="accomplish">
 
@@ -79,11 +77,11 @@ Mostly I will go away happy if people see the possibilities of the hardware and 
 After about 2 years of on and off upskilling for myself, I can highly reccomend anyone who is interested, give this a go, it's not untennable and unreachable. You just have to go for it.
 
 ## Firmware
-The badge firmware started on a whim after talking to Mike about it on and off for a couple months, I had a firmware for similar hardware and it worked with a screen, I figured how hard could it be to port and write some custom code for. It turns out, not that hard, but in the end massively time consuming.
+The badge firmware started on a whim after talking to Mike ([Elastic Ninja](https://twitter.com/elasticninja)) about it on and off for a couple months, I had a firmware for similar hardware and it worked with a screen, I figured how hard could it be to port and write some custom code for. It turns out, not that hard, but in the end massively time consuming.
 
 ![](/images/2019/11/Badge.jpg)
 
-I had written the ESP8266 Game On engine for the similarly named ESP8266 with a black and white SSD1306 screen. Since I had written it to run on Windows, Linux, Webbrowser and the hardware itself, I figured writing one more version of it, wouldn't be that hard. I got the inital version up (black and white) on the ESP32 in about a day. That was the bit that sucked me in completely after that I was hooked.
+I had written the [ESP8266 Game On engine](https://www.hackster.io/tmamacos/building-your-own-game-console-esp8266-and-ssd1306-34f9e7) for the similarly named ESP8266 with a black and white SSD1306 screen. Since I had written it to run on Windows, Linux, Webbrowser and the hardware itself, I figured writing one more version of it, wouldn't be that hard. I got the inital version up (black and white) on the ESP32 in about a day. That was the bit that sucked me in completely, after that I was hooked.
 
 Changing the code base to colour, took a bit of hacking and working out and after that, for acceleration, I dropped the Web version and the Console Text versions as well as the ESP8266 version and opted for only SDL (A cross platform graphics library) for Windows and Linux, and the ESP32 hardware.
 
@@ -126,7 +124,7 @@ The 3rd and final scene, interspersed with the walking around the office scene, 
 	<source src="/images/2019/11/code_bsides_voxel.mp4" type="video/mp4">
 </video>
 
-It was round about this point that the dream of remotely updating the ROM started fading, Elastic Ninja hadn't implemented any code himself yet and I was running at 98+ % space usage. This was a bit too high to keep pushing forwards. To update the ROM over the air (OTA) you have to use 2x whatever you allocate to the ROM, so for us that was 1.9mb x 2 for the ROM and 190kb for storing data like the JSON saved configs.
+It was round about this point that the dream of remotely updating the ROM started fading, Mike hadn't implemented any code himself yet and I was running at 98+ % space usage. This was a bit too high to keep pushing forwards. To update the ROM over the air (OTA) you have to use 2x whatever you allocate to the ROM, so for us that was 1.9mb x 2 for the ROM and 190kb for storing data like the JSON saved configs.
 
 One build setting later and I had almost another 2mb free. I went a bit crazy and implemented compressed JPEG loading, QR Generators, changed all my binary encoded graphics to JPEGs where it made more sense (full screen images) and added a few easter eggs, which ate up space. Amazingly most of the space being used was the Bluetooth Stack and the Wifi stack, both of which we needed. So all the new features and graphics, only took me up to 2.1mb.
 
@@ -199,7 +197,7 @@ While I did my best to seperate the resolution out the code, I did eventually st
 With Visual Studio Code, Docker and Emscipten, I have a plan around a portable self contained development environment tool chain which I would love to explore. I think there's also some legs in seeing about allocating a heap of memory at start up and managing that throughout the life cycle to see if I could make sure we don't break memory constraints on the PC version as well, and something to do with CPU cycle counting.
 
 # Is this the end
-Probably for a while, but Thank You for reading this far, I hope you had some fun reading this and hopefully gained something from the experience, if you would like to know more about any aspect of the project, give me shout and lets chat.
+Probably for a while, but Thank You for reading this far, I hope you had some fun and hopefully gained something from the experience, if you would like to know more about any aspect of the project, give me shout and lets chat.
 
 <a name="links">
 
@@ -211,7 +209,7 @@ Probably for a while, but Thank You for reading this far, I hope you had some fu
 
 [Doom Fire](http://fabiensanglard.net/doom_fire_psx/)
 
-[Mike aka the Hardware Guy](https://github.com/dodgymike)
+[Mike (Elastic Ninja)](https://github.com/dodgymike)
 
 [Esp8266 Game On Repo](https://github.com/tonym128/ESP8266GameOn)
 
