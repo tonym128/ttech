@@ -44,11 +44,11 @@ The components are
 
 ![](/images/2019/11/esp32.png)
 - ESP32 processor. 
-	- This is a dual core 240mhz, 380kb memory, 4mb rom processor. It is super fast, and has Bluetooth and Wifi built in! It doesn't have a floating point unit, but those type of calcs can be done via the toolchain and Arduino libraries, otheriwse you can do fixed point math, like I did for a number of performance reasons.
+	- This is a dual core 240mhz, 380kb memory, 4mb rom processor. It is super fast, and has Bluetooth and Wifi built in! It doesn't have a floating point unit, but those type of calcs can be done via the toolchain and Arduino libraries, otherwise you can do fixed point math, like I did for a number of performance reasons.
 
 ![](/images/2019/11/ips.png)
 - 1.3 Inch 240x240 IPS Display
-	- This display was a real find, it's price and resolution are not easy to come by, one of the challenges in the project was actually pushing out all those pixels, we couldn't actually do full 16 bit colour, which the screen supports, because of the framebuffer it would have required. I do feel the 256 colour pallete has some charm to it though.
+	- This display was a real find, it's price and resolution are not easy to come by, one of the challenges in the project was actually pushing out all those pixels, we couldn't actually do full 16 bit colour, which the screen supports, because of the framebuffer it would have required. I do feel the 256 colour palette has some charm to it though.
 
 ![](/images/2019/11/badge_pcb.jpg)
 - Custom PCB
@@ -56,7 +56,7 @@ The components are
 
 ![](/images/2019/11/18650.png)
 - A 18650 Battery
-	- This is considered the most standard battery in the world, it's the same one as is used in Teslas! So you can feel a bit like a part of the future, just having one of these in your possesion, I think it's a 2800mah battery, but time will tell, literally on the day :)
+	- This is considered the most standard battery in the world, it's the same one as is used in Teslas! So you can feel a bit like a part of the future, just having one of these in your possession, I think it's a 2800mah battery, but time will tell, literally on the day :)
 	
 ![](/images/2019/11/custom3dcase.jpg)
 - 3D Printed case 
@@ -68,20 +68,21 @@ I was very keen to put something out there to show what the hardware is capable 
 
 Thankfully the game won out and I've put together a single player game which shows quite a bit of the capabilities of the hardware, as far as I could push it and how much you should be able to do with it.
 
-I also wanted this to be as accesible as possible, part of that was tooling and libraries used, and another part was making it as cross platform as possible.
+I also wanted this to be as accessible as possible, part of that was tooling and libraries used, and another part was making it as cross platform as possible.
 
 A big goal is to have people go away, strip this badges software back to the core and make it do some single thing much better than I did here. Whether it's fleshing out the BT GamePad functionality or rolling out a new single player game, making a mesh network multiplayer game with adhoc capabilities, those would all blow me away. 
 
 Mostly I will go away happy if people see the possibilities of the hardware and maybe it ignites some passion in them to go and explore and learn like I did. 
 
-After about 2 years of on and off upskilling for myself, I can highly reccomend anyone who is interested, give this a go, it's not untennable and unreachable. You just have to go for it.
+After about 2 years of on and off upskilling for myself, I can highly reco
+mend anyone who is interested, give this a go, it's not untenable and unreachable. You just have to go for it.
 
 ## Firmware
 The badge firmware started on a whim after talking to Mike ([Elastic Ninja](https://twitter.com/elasticninja)) about it on and off for a couple months, I had a firmware for similar hardware and it worked with a screen, I figured how hard could it be to port and write some custom code for. It turns out, relatively straight forwards to start, but in the end massively time consuming to finish :).
 
 ![](/images/2019/11/Badge.jpg)
 
-I had written the [ESP8266 Game On engine](https://www.hackster.io/tmamacos/building-your-own-game-console-esp8266-and-ssd1306-34f9e7) for the similarly named ESP8266 with a black and white SSD1306 screen. Since I had written it to run on Windows, Linux, Webbrowser and the hardware itself, I figured writing one more version of it, wouldn't be that hard. I got the inital version up (black and white) on the ESP32 in about a day. That was the bit that sucked me in completely, after that I was hooked.
+I had written the [ESP8266 Game On engine](https://www.hackster.io/tmamacos/building-your-own-game-console-esp8266-and-ssd1306-34f9e7) for the similarly named ESP8266 with a black and white SSD1306 screen. Since I had written it to run on Windows, Linux, Web browser and the hardware itself, I figured writing one more version of it, wouldn't be that hard. I got the initial version up (black and white) on the ESP32 in about a day. That was the bit that sucked me in completely, after that I was hooked.
 
 Changing the code base to colour, took a bit of hacking and working out and after that, for acceleration, I dropped the Web version and the Console Text versions as well as the ESP8266 version and opted for only SDL (A cross platform graphics library) for Windows and Linux, and the ESP32 hardware.
 
@@ -97,7 +98,7 @@ I implemented a menu early on, so we could have some ability to work on multiple
 
 I also wanted something interesting on the main menu and found Doom Fire documented by [Fabian](https://twitter.com/fabynou) this gave a great feel to the menu.
 
-We wanted to have some sort of competition on the day, so adding a JSON library for saving and loading local scores was implemented, then I found a JSON server which would be up to the task of aggregating our high scores. Plugging that in over WiFi took a bit of time, but the pay off was great, we have a leaderboard page we could display as well as letting the badges download the high scores locally for viewing the top 5 scores.
+We wanted to have some sort of competition on the day, so adding a JSON library for saving and loading local scores was implemented, then I found a JSON server which would be up to the task of aggregating our high scores. Plugging that in over WiFi took a bit of time, but the pay off was great, we have a leader board page we could display as well as letting the badges download the high scores locally for viewing the top 5 scores.
 
 <video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
 	<source src="/images/2019/11/code_badge_asteroids.mp4" type="video/mp4">
@@ -145,7 +146,7 @@ I got a last hurrah in as well, which was an idea of whether I could or not, tha
 	<source src="/images/2019/11/badge_achievements.mp4" type="video/mp4">
 </video>
 
-Finally there is still a lot of debug code on the badge, I could have taken this out, but actually still find it quite useful, quite often, so I have left it in. There's the FPS / RAM / Heap Corruption screen. The input debug screen and added during the roate function testing, the FPS output over serial, I always wanted to have a FPS graph on my PC from the badge.
+Finally there is still a lot of debug code on the badge, I could have taken this out, but actually still find it quite useful, quite often, so I have left it in. There's the FPS / RAM / Heap Corruption screen. The input debug screen and added during the rotate function testing, the FPS output over serial, I always wanted to have a FPS graph on my PC from the badge.
 
 <a name="right">
 
@@ -156,7 +157,7 @@ Finally there is still a lot of debug code on the badge, I could have taken this
 ## Cross platform
 This was a major win for any new feature going in, being able to debug locally on my desktop allowed me to iterate through and implement a lot of things I would have never had patience for any other way. The Raycaster, Texture mapping and Voxel landscape would have been impossible to do without that. 
 
-Massive big up to those old school NES programmers who literatlly had to burn assembly onto a ROM to see their code running!
+Massive big up to those old school NES programmers who literally had to burn assembly onto a ROM to see their code running!
 
 There was a scenario when I worked out I had a memory leak on the badge and for life of me I couldn't find it in the code. I realised that I probably had the same leak on Windows but it wasn't apparent because of the GB's of RAM I had vs the 380Kb on the ESP32. I remembered way through the fogs of time a tool called Valgrind, I didn't even bother trying to run it on Windows, I fired up my Linux machine, grabbed Valgrind, grabbed the latest code and ran it via Valgrind. I helped me track down the bug in hours. It was one of the most common mistakes in programming, off by 1 error on the screen buffer and some other minor bugs that eventually ate up all the RAM.
 
@@ -181,7 +182,7 @@ I kept writing prototype code with global variables for the demo's, there was no
 The headers in the project are a mess. The way the framework expanded during the project was a little hodge podge, and features were added as needed, this was a big pain getting things working sometimes and the Arduino IDE / Tool chain does have some issues, my favourite was not being able to include cpp files which are in directories, the errors you get are really unrelated to this.
 
 ## The Bluetooth / Wifi not being cross platform
-This is one of my biggest regrets, but probably neccesary on some fronts. I wish I had the Wifi as a first class citizen of the framework, but instead quite a few portions of the code are littered with #ifdefs that I was hoping to contain only to the platform files.
+This is one of my biggest regrets, but probably neccessary on some fronts. I wish I had the Wifi as a first class citizen of the framework, but instead quite a few portions of the code are littered with #ifdefs that I was hoping to contain only to the platform files.
 
 ## Documenting the goals earlier on
 This was a bit of a problem around maintaining velocity as I got further and further into the project. There is a lost month somewhere where I couldn't work out what to do and just lost all ability to write code towards the finished product, thankfully I did write up some goals and outlined my way to the finish line and then started nailing points off 1 by 1.
@@ -195,7 +196,7 @@ I believe the ESP32 GameOn framework possibly has a future in the embedded space
 
 I would love to redo the platform files, redo the game framework and make sure to hide all the platform functions from the user and only expose easy to use, well thought out functions as well as the generic output and input mechanisms.
 
-While I did my best to seperate the resolution out the code, I did eventually start taking short cuts in a lot of places, I'm not sure that I could take that resolution lock in out and not use up too many resources on it, but it would be fun to try.
+While I did my best to separate the resolution out the code, I did eventually start taking short cuts in a lot of places, I'm not sure that I could take that resolution lock in out and not use up too many resources on it, but it would be fun to try.
 
 With Visual Studio Code, Docker and Emscipten, I have a plan around a portable self contained development environment tool chain which I would love to explore. I think there's also some legs in seeing about allocating a heap of memory at start up and managing that throughout the life cycle to see if I could make sure we don't break memory constraints on the PC version as well, and something to do with CPU cycle counting.
 
