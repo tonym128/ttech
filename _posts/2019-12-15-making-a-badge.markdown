@@ -3,7 +3,7 @@ author: tonym128
 comments: false
 date: 2019-12-15 22:55:44+00:00
 layout: post
-link: https://ttech.mamacos.media/2019/11/17/making-a-badge/
+link: https://ttech.mamacos.media/2019/12/15/making-a-badge/
 slug: making-a-badge
 title: BSides Cape Town 2019 Making a badge
 wordpress_id: 290
@@ -111,7 +111,7 @@ This theme tied quite nicely into a few prototypes I had knocking around already
 	<source src="/images/2019/11/code_taxis_to_the_future.mp4" type="video/mp4">
 </video>
 
-The second scene is now in the office, looking for the security keys. I had implemented the code for a Raycaster (think Wolfenstein) from some fantastic tutorials by [Lode](https://lodev.org/cgtutor/raycasting.html) for the ESP8266 and porting the engine over and upgradeing from black and white was great. Instead of using a ton of textures, I just went with colour bitmasking (taking away or adding certain colours to an existing bitmap). Adding the floor and ceiling add a lot visually to the scene. I was originally planning on going with a randomly generated level, but in the end I settled on a static level to store it in ROM and save precious memory. 
+The second scene is now in the office, looking for the security keys. I had implemented the code for a Raycaster (think Wolfenstein) from some fantastic tutorials by [Lode](https://lodev.org/cgtutor/raycasting.html) for the ESP8266 and porting the engine over and upgrading from black and white was great. Instead of using a ton of textures, I just went with colour bitmasking (taking away or adding certain colours to an existing bitmap). Adding the floor and ceiling add a lot visually to the scene. I was originally planning on going with a randomly generated level, but in the end I settled on a static level to store it in ROM and save precious memory. 
 
 <video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
 	<source src="/images/2019/11/code_badge_wolf.mp4" type="video/mp4">
