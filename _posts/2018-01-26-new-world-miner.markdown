@@ -179,6 +179,6 @@ At the end of that I made half of what the coins where worth as when I started, 
 
 I honestly thought I knew more about the process when I started and learnt quite a lot. The setting up of the wallets and the mining clients as well as keeping it all running smoothly was very interesting. The process of moving the coins around was actually quite complicated to work out, but once I had it I was very happy with the process.
 
-The other things I'm interested in is the idea of a mining rig with proper operating system support, actual running of a Crypto currency, the pools and the exchanges. I still think there's a lot for me to learn here and I look forwards to exploring it more.
+The other things I'm interested in is the idea of a mining rig with proper operating system support, actual running of a Crypto currency, the pools and the exchanges. I still think there's a lot for me to learn here and I look forward to exploring it more.
 
 
