@@ -1,7 +1,7 @@
 ---
 author: tonym128
 comments: false
-date: 2021-06-29 22:15:47+00:00
+date: 2021-06-29 20:15:47+00:00
 layout: post
 link: https://ttech.mamacos.media/2021/06/29/arduboy-tv-on-esp32-with-ps3-remote-control/
 slug: arduboy-tv-on-esp32-with-ps3-remote-control
