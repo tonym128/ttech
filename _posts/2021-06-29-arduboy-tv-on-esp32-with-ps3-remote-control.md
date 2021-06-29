@@ -22,6 +22,7 @@ wordpress_id: 291
 # Synopsis
 
 ![](/images/2021/06/esp32_arduboy.webp)
+
 A simple games console for some fun, with some cheap components and minimal experience necessary to get going to make and play games.
 
 <a name="goal">
@@ -196,17 +197,16 @@ I've had this running on a BSides Cape Town 2019 Badge, where I detailed the sof
 
 An ESP32 E-Paper display
 
-<https://youtu.be/UsU7p2SeZJs>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UsU7p2SeZJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Dark and Under on the E-Paper Board and the BSides Cape Town 2019 Badge
 
 And now with the TV output with PS3 controller as what I believe is the simplest and quickest way to get going with this and have some fun.
 
-<https://youtu.be/JAzbY3VLw6E>
-The short video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JAzbY3VLw6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I hope you found some interesting bits in this journey with me and if you would like to chat to anything about this, give me a shout, I'll be happy to engage.
 
 Until then I'll be playing some Catacombs of the Damned.
 
-<https://youtu.be/ZgZ1MNB7YgE>
-The longer video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZgZ1MNB7YgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
